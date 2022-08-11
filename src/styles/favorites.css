@@ -1,0 +1,40 @@
+.favoritesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 25px;
+  margin-top: 1rem;
+  padding: 0 2rem;
+}
+
+.starBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  padding: 0;
+  font-size: 32px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-shadow: 0px 0px 19px black;
+}
+
+.starBtn:focus {
+  outline: none;
+}
+
+.favoriteItem {
+  color: yellow;
+}
+
+.notFavoriteItem {
+  color: white;
+}
+
+.notAdded {
+  color: #707575;
+  font-size: 20px;
+}
