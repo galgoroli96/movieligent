@@ -25,7 +25,7 @@ export function FavoritesProvider({ children }: FavoritesProviderProps) {
   );
 
   function isFavorite(id: number) {
-    return favorites.find((item) => item.id === id);
+    return !!favorites.find((item) => item.id === id);
   }
 
   function addToFavorites(obj: MovieElement) {
